@@ -9,7 +9,6 @@ Code first approach to create database is used.
 When you change database Models, database is automatically updated with corresponding structure.
 
 NuGet packages required: 
-
     <b>Microsoft.EntityFrameworkCore.Design</b> to create models
 
     <b>Microsoft.EntityFrameworkCore.SqlServer</b> to connect with database server
