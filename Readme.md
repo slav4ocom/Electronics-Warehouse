@@ -10,9 +10,9 @@ When you change database Models, database is automatically updated with correspo
 
 NuGet packages required: 
 
-	<b>Microsoft.EntityFrameworkCore.Design</b> to create models
+    <b>Microsoft.EntityFrameworkCore.Design</b> to create models
 
-	<b>Microsoft.EntityFrameworkCore.SqlServer</b> to connect with database server
+    <b>Microsoft.EntityFrameworkCore.SqlServer</b> to connect with database server
 
-	<b>Microsoft.EntityFrameworkCore.Tools</b> to work with Package Manager Console inside Visual Studio
+    <b>Microsoft.EntityFrameworkCore.Tools</b> to work with Package Manager Console inside Visual Studio
 
