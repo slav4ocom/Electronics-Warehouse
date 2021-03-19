@@ -8,11 +8,8 @@ namespace Console_Manager
     {
         static void Main(string[] args)
         {
-            var db = new ElectronicsWarehouseContext();
-
-            db.Database.Migrate();
-
-            Console.WriteLine("Database created...");
+            Engine.Run();
+            
         }
     }
 }
