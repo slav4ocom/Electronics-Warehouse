@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Console_Manager.Models;
+using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace Console_Manager
 {
@@ -6,7 +8,11 @@ namespace Console_Manager
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var db = new ElectronicsWarehouseContext();
+
+            db.Database.Migrate();
+
+            Console.WriteLine("Database created...");
         }
     }
 }
