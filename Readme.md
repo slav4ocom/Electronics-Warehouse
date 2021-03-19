@@ -3,6 +3,9 @@
 This is very simple console program that manages articles in warehouse.
 
 The articles are added / listed / modified / removed  <i>( CRUD operations )</i> via command interface.
+
+Compilled with .NET CORE 3.1
+
 Project uses <b>MS SQL</b> server database to actually store articles.
 Connection to SQL server is over TCP. Connection string is provided in <b>ElectronicsWarehouseContext.cs</b> OnConfiguring method.
 For testing I use my MS SQL server on my home network. You can use remote server over internet.
