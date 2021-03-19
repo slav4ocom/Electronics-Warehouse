@@ -23,15 +23,15 @@ namespace Console_Manager
             while (true)
             {
                 Console.WriteLine("ready");
-                var line = Console.ReadLine();
+                var line = Console.ReadLine().ToLower().Trim();
 
-                if (line.ToLower().Trim() == "exit")
+                if (line == "exit")
                 {
                     break;
                 }
                 else
                 {
-                    Parse(line.ToLower().Trim());
+                    Parse(line);
                 }
             }
 
