@@ -16,3 +16,4 @@ NuGet packages required:
 
     Microsoft.EntityFrameworkCore.Tools to work with Package Manager Console inside Visual Studio
 
+Print <b>help</b> to show help using commands.

@@ -22,6 +22,7 @@ namespace Console_Manager
 
             while (true)
             {
+                Console.WriteLine("ready");
                 var line = Console.ReadLine();
 
                 if (line.ToLower().Trim() == "exit")
@@ -59,6 +60,10 @@ namespace Console_Manager
 
                 case "edit":
                     Commands.Edit();
+                    break;
+
+                case "help":
+                    Commands.Help();
                     break;
 
                 default:

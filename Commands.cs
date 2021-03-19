@@ -1,6 +1,7 @@
 ﻿using Console_Manager.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 
@@ -73,6 +74,13 @@ namespace Console_Manager
                 Console.WriteLine("Invalid part.");
             }
 
+        }
+
+        public static void Help()
+        {
+            var text = File.ReadAllText("../../../Help.txt");
+
+            Console.WriteLine(text);
         }
     }
 }
